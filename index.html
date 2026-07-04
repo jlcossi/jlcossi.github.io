@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jean-Luc COSSI | AI Adoption & Delivery Transformation Director</title>
+<meta name="description" content="I make AI adoption pay off in delivery. 15 years of measured turnarounds inside engineering and Data & AI organizations. Paris, available immediately.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c2733;        /* deep slate ink */
+    --ink-soft:#4a5a6a;
+    --paper:#fafbfc;      /* cool paper, not cream */
+    --line:#dde3e8;
+    --accent:#f97316;     /* LeanTechPro orange */
+    --accent-ink:#c2410c;
+    --card:#ffffff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:'IBM Plex Sans',system-ui,sans-serif;
+    background:var(--paper);color:var(--ink);
+    line-height:1.6;font-size:17px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:860px;margin:0 auto;padding:0 24px}
+  a{color:var(--accent-ink);text-decoration:none}
+  a:hover{text-decoration:underline}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:2px}
+  .mono{font-family:'IBM Plex Mono',monospace}
+
+  /* ---------- hero ---------- */
+  header{padding:72px 0 56px;border-bottom:1px solid var(--line)}
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-soft);margin-bottom:20px;
+  }
+  .eyebrow b{color:var(--ink);font-weight:500}
+  h1{
+    font-family:'Archivo',sans-serif;font-weight:800;
+    font-size:clamp(28px,4.4vw,42px);line-height:1.12;
+    letter-spacing:-.015em;max-width:16ch;
+  }
+  h1 .ai{color:var(--accent)}
+  .tagline{margin-top:22px;font-size:20px;max-width:52ch;color:var(--ink-soft)}
+  .tagline b{color:var(--ink);font-weight:600}
+  .contact{margin-top:30px;display:flex;flex-wrap:wrap;gap:10px}
+  .chip{
+    display:inline-block;padding:9px 16px;border:1.5px solid var(--line);
+    border-radius:999px;font-size:15px;font-weight:500;color:var(--ink);background:var(--card);
+  }
+  a.chip:hover{border-color:var(--accent);text-decoration:none;color:var(--accent-ink)}
+  .chip.avail{border-color:var(--accent);color:var(--accent-ink);background:#fff7f0}
+
+  /* ---------- sections ---------- */
+  section{padding:56px 0;border-bottom:1px solid var(--line)}
+  h2{
+    font-family:'IBM Plex Mono',monospace;font-weight:500;font-size:14px;
+    letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:32px;
+  }
+
+  /* ---------- results board (signature) ---------- */
+  .result{
+    display:grid;grid-template-columns:minmax(220px,300px) 1fr;
+    gap:8px 32px;padding:20px 0;border-top:1px solid var(--line);align-items:baseline;
+  }
+  .result:last-child{border-bottom:1px solid var(--line)}
+  .delta{
+    font-family:'Archivo',sans-serif;font-weight:800;
+    font-size:clamp(21px,2.7vw,27px);letter-spacing:-.01em;white-space:nowrap;
+  }
+  .delta .arrow{color:var(--accent);font-weight:700;padding:0 4px}
+  .ctx{color:var(--ink-soft);font-size:16px}
+  .ctx .mono{font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;display:block;margin-bottom:2px;color:var(--ink)}
+
+  /* ---------- how I work ---------- */
+  .how{display:grid;grid-template-columns:1fr 1fr;gap:28px 40px}
+  .how h3{font-family:'Archivo',sans-serif;font-weight:700;font-size:18px;margin-bottom:6px}
+  .how p{color:var(--ink-soft);font-size:16px}
+
+  /* ---------- AI section ---------- */
+  .wedge{font-size:20px;line-height:1.65;max-width:56ch}
+  .wedge b{font-weight:600}
+  .system{
+    margin-top:36px;background:var(--card);border:1.5px solid var(--line);
+    border-left:5px solid var(--accent);border-radius:6px;padding:28px 30px;
+  }
+  .system h3{font-family:'Archivo',sans-serif;font-weight:700;font-size:19px;margin-bottom:14px}
+  .system ul{list-style:none}
+  .system li{
+    padding:7px 0 7px 24px;position:relative;color:var(--ink-soft);font-size:16px;
+  }
+  .system li::before{
+    content:"";position:absolute;left:2px;top:16px;width:10px;height:10px;
+    background:var(--accent);border-radius:2px;
+  }
+  .system .demo{margin-top:14px;font-family:'IBM Plex Mono',monospace;font-size:14px;color:var(--ink)}
+
+  /* ---------- writing + footer ---------- */
+  .writing p{max-width:56ch;color:var(--ink-soft)}
+  .writing ul{margin-top:16px;list-style:none}
+  .writing li{padding:6px 0}
+  footer{padding:48px 0 72px;color:var(--ink-soft);font-size:15px}
+  footer .mono{font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+
+  @media (max-width:640px){
+    header{padding:48px 0 40px}
+    .result{grid-template-columns:1fr;gap:2px 0;padding:16px 0}
+    .how{grid-template-columns:1fr}
+    body{font-size:16px}
+  }
+  @media (prefers-reduced-motion:no-preference){
+    header .wrap>*{animation:rise .5s ease both}
+    header .wrap>*:nth-child(2){animation-delay:.06s}
+    header .wrap>*:nth-child(3){animation-delay:.12s}
+    header .wrap>*:nth-child(4){animation-delay:.18s}
+    @keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <p class="eyebrow"><b>Jean-Luc COSSI</b> · Paris · EN / FR</p>
+    <h1><span class="ai">AI Adoption</span> &amp; Delivery Transformation Director</h1>
+    <p class="tagline"><b>I make AI adoption pay off in delivery.</b> 15 years of measured turnarounds inside engineering and Data &amp; AI organizations across Europe, Africa and Asia.</p>
+    <div class="contact">
+      <span class="chip avail">Available immediately</span>
+      <a class="chip" href="https://cal.com/jlcossi/discovery-call">Book a 30-min call</a>
+      <a class="chip" href="https://linkedin.com/in/jlcossi">LinkedIn</a>
+      <a class="chip" href="https://x.com/jlcossi">X</a>
+      <a class="chip" href="https://leantechpro.com">leantechpro.com</a>
+    </div>
+  </div>
+</header>
+
+<section id="results">
+  <div class="wrap">
+    <h2>Measured results</h2>
+
+    <div class="result">
+      <div class="delta">−50% <span style="font-size:.55em;font-weight:700;color:var(--ink-soft)">lead time</span></div>
+      <div class="ctx"><span class="mono">Cloud deployments · Data &amp; AI portfolio</span>
+      Global food-services group. 3 years embedded with engineering leadership; the constraint was never the models, it was getting them deployed.</div>
+    </div>
+
+    <div class="result">
+      <div class="delta">−50% <span style="font-size:.55em;font-weight:700;color:var(--ink-soft)">incidents</span> · NPS +65</div>
+      <div class="ctx"><span class="mono">Production deployments · database team, 4 countries</span>
+      Global manufacturer. Performance turnaround across the US, France, India and China, in 3 months.</div>
+    </div>
+
+    <div class="result">
+      <div class="delta">−91% <span style="font-size:.55em;font-weight:700;color:var(--ink-soft)">defects</span></div>
+      <div class="ctx"><span class="mono">Banking software · 31 developers</span>
+      European bank. 100% on-time deliveries within 3 months of a scaled-Agile transformation.</div>
+    </div>
+
+    <div class="result">
+      <div class="delta">40% <span class="arrow">→</span> 64%</div>
+      <div class="ctx"><span class="mono">Orders won · order-to-cash redesign</span>
+      Industrial services group, continental Europe. Sales, logistics and contract management rebuilt around the flow.</div>
+    </div>
+
+    <div class="result">
+      <div class="delta">+50% <span style="font-size:.55em;font-weight:700;color:var(--ink-soft)">productivity</span></div>
+      <div class="ctx"><span class="mono">National digital-transformation portfolio</span>
+      Government support center: lost calls −88%, citizen satisfaction +23%.</div>
+    </div>
+
+    <div class="result">
+      <div class="delta">−67% <span style="font-size:.55em;font-weight:700;color:var(--ink-soft)">downtime</span></div>
+      <div class="ctx"><span class="mono">IT operations · financial services</span>
+      Incident system redesigned; three managers coached weekly until the number held.</div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <h2>How I work</h2>
+    <div class="how">
+      <div>
+        <h3>Diagnostic before design</h3>
+        <p>I sit with the teams and watch how the work actually flows. I find the friction everyone has normalized, and I size it.</p>
+      </div>
+      <div>
+        <h3>Ownership to delivery</h3>
+        <p>I run the roadmap end to end and stay accountable for the number.</p>
+      </div>
+      <div>
+        <h3>Change that outlasts me</h3>
+        <p>I coach managers through the new way of running the work, so the result holds after I step out.</p>
+      </div>
+      <div>
+        <h3>Visibility for the COMEX</h3>
+        <p>Status, risk and value on one board. Decisions arrive with options, not just problems.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ai">
+  <div class="wrap">
+    <h2>The AI gap</h2>
+    <p class="wedge">The tools made teams faster; delivery did not move, because nobody redesigned the system around the new speed. <b>Closing that gap is my work.</b> I know both sides of it, because I run my own operation on agentic AI daily.</p>
+    <div class="system">
+      <h3>My own company runs on agentic AI</h3>
+      <ul>
+        <li>A versioned skill library: writing, publishing, research and reporting encoded as standard work.</li>
+        <li>A one-pass repurposing pipeline: one filmed story in, seven channel-ready assets out.</li>
+        <li>A document factory with built-in quality gates: configuration in, verified deliverable out, in minutes.</li>
+        <li>An operating manual, versioned and improved weekly: PDCA applied to the AI system itself.</li>
+      </ul>
+      <p class="demo">Live demo on request. 90 seconds, end to end.</p>
+    </div>
+  </div>
+</section>
+
+<section id="writing" class="writing">
+  <div class="wrap">
+    <h2>Writing</h2>
+    <p>I publish diagnoses, countermeasures and real cases on tech delivery in the AI era.</p>
+    <ul>
+      <li>→ <a href="https://leantechpro.com/ai-tools-not-delivering/">Your AI tools aren't delivering. The problem isn't the tools.</a></li>
+      <li>→ <a href="https://leantechpro.com/blog/">All articles on leantechpro.com</a></li>
+      <li>→ <a href="https://newsletter.leantechpro.com">The Delivery Playbook, weekly newsletter</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p class="mono">Jean-Luc COSSI · Paris · open to international &amp; remote</p>
+    <p style="margin-top:8px">Detailed CV and references on request: <a href="https://cal.com/jlcossi/discovery-call">book a 30-min call</a> · <a href="https://linkedin.com/in/jlcossi">LinkedIn</a> · <a href="https://x.com/jlcossi">X</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
