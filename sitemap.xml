@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jlcossi.com/</loc>
-    <lastmod>2026-08-21</lastmod>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jlcossi.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jlcossi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jlcossi.com/"/>
+  </url>
+  <url>
+    <loc>https://jlcossi.com/fr/</loc>
+    <lastmod>2026-09-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jlcossi.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://jlcossi.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jlcossi.com/"/>
   </url>
 </urlset>
